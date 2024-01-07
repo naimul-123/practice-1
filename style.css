@@ -135,7 +135,7 @@ line-height: 26px;
 .mindset{
     margin: 130px auto;
     /* width: 1600px; */
-    background-image: url("/images/gradient2.png" ), url("/images/watch.png");
+    background-image: url("./images/gradient2.png" ), url("./images/watch.png");
     background-repeat: no-repeat, no-repeat;
     background-size: cover;
     height: 300px;
