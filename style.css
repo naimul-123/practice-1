@@ -1,0 +1,210 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    width: 1600px;
+    height: 808px;
+    margin: 0 auto;
+    background-image: url("/images/banner/banner1.png");
+    background-repeat: no-repeat;
+}
+.hero{
+    padding: 216px 230px 186px 845px;
+    text-align: right;
+}
+.hero-header{
+    color:  #151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+.hero-desc{
+    color:  #444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.btn{
+    border: none;
+    background-color: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.failer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    /* border: 1px solid ; */
+    height: 808px;
+    margin: 0 auto;
+    gap: 105px;
+    padding: 140px 320px 130px 205px;
+
+}
+.failer-profile{
+    position: relative;
+
+}
+
+ .profil-bg{
+    text-align: center;
+    width: 527.929px;
+    height: 527.929px;
+    position: absolute; 
+    top: 195px;
+    left: 25px;
+    z-index: -1;
+    left: 25px;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+
+}
+.header-2{
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.header-3{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+
+.failer-desc {
+color:  #444343;
+font-size: 16px;
+margin: 24px 0;
+font-weight: 400;
+line-height: 26px;
+}
+.failer-list{
+    list-style: none;
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+
+}
+.failer-list i{
+    color: #16D887;
+}
+.my-plan{
+    width: 1140px;
+    margin: 130px auto;
+    text-align: center;
+}
+
+.my-plan .header-2{
+    margin-bottom: 50px;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 65px;
+}
+.plan-disc{
+    color:  #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.mindset{
+    margin: 130px auto;
+    /* width: 1600px; */
+    background-image: url("/images/gradient2.png" ), url("/images/watch.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: left;
+    padding: 64px 59px;
+   
+}
+
+.mindset .header-2{
+    color: #fff;
+}
+.mindset .btn{
+    background-color: #fff;
+    color: #F15B22;
+}
+.footer{
+    padding: 130px 230px;
+    width: 1600px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color:  #151414;
+    color: #fff;
+}
+.feature-header{
+    color: #F8F8F8;
+    font-size: 45px;
+
+}
+
+.feature p{
+    margin: 16px 0;
+}
+.social{
+    display: flex;
+    justify-content: flex-start;
+    gap:20px
+
+}
+.header-4{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+
+
+
+}
+.subscribe{
+    width: 100%;
+}
+.subscribe-email{
+    display: block;
+    width: 100%;
+    margin: 30px 0 15px;
+    padding: 21px;
+    outline: 1px solid #fff;
+    background-color: #151414;
+    color: #fff;
+    border-radius: 5px;
+}
+.subscribe-email::placeholder{
+    color:  #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.subscribe .btn{
+    padding: 20px 36px;
+    background-color: #fff;
+    border-color: #F15B22;
+    color: #F15B22;
+}
